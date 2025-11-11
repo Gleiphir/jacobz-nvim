@@ -24,7 +24,7 @@ return {
   opts = function(_, opts)
     
     opts.keymap = {
-      preset = "default",
+      preset = "super-tab",
 
       ["<CR>"] = false,
     }
