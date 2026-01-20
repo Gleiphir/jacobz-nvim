@@ -21,6 +21,11 @@ return {
   -- working release
   -- https://github.com/Saghen/blink.cmp/releases
   -- version = "v0.13.1",
+
+  sources = {
+      default = { 'lsp', 'path', 'snippets', 'buffer' },
+  },
+
   opts = function(_, opts)
     
     opts.keymap = {
@@ -28,6 +33,8 @@ return {
 
       ["<CR>"] = false,
     }
+
+    
 
     return opts
   end,
